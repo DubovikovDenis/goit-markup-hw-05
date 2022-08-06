@@ -9,7 +9,7 @@
     --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
 }
  
-    /* ----------БАЗОВЕ СКИДАННЯ---------- */
+/* ----------БАЗОВЕ СКИДАННЯ---------- */
 h1,
 h2,
 h3,
@@ -43,9 +43,10 @@ button {
         text-decoration: none;
         font-style: normal;
 }
+/* ----------БАЗОВЕ СКИДАННЯ---------- */
 
 
-/* body */
+/* ------------BODY----------- */
 body {
 font-family: var(--primary-font);
 }
@@ -198,6 +199,7 @@ font-family: var(--primary-font);
 .current {
         color: var(--accent-color);
 }
+/* ----------HEADER---------- */
 
 
 
@@ -268,6 +270,7 @@ font-family: var(--primary-font);
         margin-bottom: 50px;
         text-align: center;
 }
+/* -----------HERO SECTION---------- */
 
 /* ----------BUTTONS---------- */
 
@@ -302,6 +305,7 @@ font-family: var(--primary-font);
         background: #188CE8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+/* ----------BUTTONS---------- */
 
 
 
@@ -368,6 +372,7 @@ font-family: var(--primary-font);
 .skills-section {
         padding-top: 0px;
 }
+/* ----------SKILLS SECTION---------- */
 
 
 
@@ -456,6 +461,7 @@ font-family: var(--primary-font);
 .social-list-link {
         transition: fill var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);
 }
+/* ---------- OUR TEAM SECTION---------- */
 
 /* ----------OUR CLIENT SECTION---------- */
 
@@ -512,10 +518,11 @@ font-family: var(--primary-font);
 .client-icon {
         transition: fill var(--transition-duration) var(--transition-timing-function);
 }
+/* ----------OUR CLIENT SECTION---------- */
 
 
 
-/*----------Footer----------*/
+/*----------FOOTER----------*/
 
 .footer-logo {
     color:var(--primary-text-color-theme-dark);
@@ -595,10 +602,9 @@ font-family: var(--primary-font);
 
 .social-link-container {
         margin-left: 70px;
-      
-        
-        
 }
+/*----------FOOTER----------*/
+
 /* ----------PORTFOLIO---------- */
 
 /* ----------FILTRLIST---------- */
@@ -651,6 +657,7 @@ font-family: var(--primary-font);
 .filtr-button:focus {
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+/* ----------FILTRLIST---------- */
 
 /*  ---------- OUR PROJECTS SECTION----------*/
 
@@ -728,6 +735,7 @@ font-family: var(--primary-font);
         transform: translate(0, 100%);
         transition: transform var(--transition-duration) var(--transition-timing-function);
 }
+/*  ---------- OUR PROJECTS SECTION----------*/
 
 /* ---------- MODAL WINDOW---------- */
 
@@ -777,6 +785,8 @@ font-family: var(--primary-font);
         visibility: hidden;
         pointer-events: none;
 }
+
+/* -----------MODAL WINDOW----------- */
 
 
 
